@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
   authDomain: "portfolio-9a3ea.firebaseapp.com",
   databaseURL: "https://portfolio-9a3ea-default-rtdb.firebaseio.com",
   projectId: "portfolio-9a3ea",
