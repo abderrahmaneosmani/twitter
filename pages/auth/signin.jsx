@@ -18,7 +18,7 @@ function signin({ providers }) {
               src="https://cdn.cms-twdigitalassets.com/content/dam/help-twitter/twitter_logo_blue.png.twimg.768.png"
             />
             <p className="text-center text-sm italic my-10">
-              this app created for{" "}
+              this app created for
             </p>
             <button
               onClick={() => signIn(provider.id, { callbackUrl: "/" })}
